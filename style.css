@@ -41,7 +41,7 @@
     to   { opacity: 1; }
 }
 
-#bgvid { 
+.bgvid { 
 
     position: fixed;
     top: 50%;
@@ -137,6 +137,14 @@ p{
 	
 }
 
+.p1 {
+	display: inline-block;
+}
+
+.p2 {
+	display: none;
+}
+
 @media screen and (max-width: 400px) {
 	
 	.blur {
@@ -221,6 +229,14 @@ p{
 
 	}
 	
+	.p1 {
+		display: none;
+	}
+
+	.p2 {
+		display: inline-block;
+	}
+	
 }
 
 @media screen and (max-width: 500px) {
@@ -302,6 +318,14 @@ p{
 		
 		font-size: 2vh;
 
+	}
+	
+	.p1 {
+		display: none;
+	}
+
+	.p2 {
+		display: inline-block;
 	}
 	
 }
