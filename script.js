@@ -1,23 +1,3 @@
-/*
-
-   \  |  _ \            _)                   
-  |\/ |  |  |  -_) (_-<  |   _` |    \  (_-< 
- _|  _| ___/ \___| ___/ _| \__, | _| _| ___/ 
-                           ____/             		 
-
-*/
-
-// ===========================================
-// Hero Animated Canvas Background
-// by Mário Duarte
-// (╭☞ ͡ ͡°͜ ʖ ͡ ͡°)╭☞
-// Thanks for stoping by, don't forget to like
-// and follow to stay up to date with new 
-// doodles and cools stuff
-// Twitter: https://twitter.com/MDesignsuk
-//  (づ｡◕‿‿◕｡)づ
-// ===========================================
-
 let ww = $(window).width();
 let wh = $(window).height();
 
@@ -44,7 +24,7 @@ function draw() {
 
   //setup canvas enviroment
   let time = new Date().getTime() * 0.002;
-  //console.log(time);
+  
   const color1 = "rgba(163,32,109,0.3)";
   const color2 = "rgba(154,25,172,0.4)";
   let canvas = document.getElementById("hero-canvas");
@@ -64,9 +44,7 @@ function draw() {
   let rectX3 = Math.cos(time * 1.4) * 4 + randomX;
   let rectY3 = Math.sin(time * 1.4) * 4 + randomY;
 
-  //console.log(rectX + '-' + rectY + '-' + rectX2 + '-' + rectY2 + '-' + rectX3 + '-' + rectY3);
-
-  //triangle gradiente ==========================================
+  //triangle gradient ==========================================
   var triangle_gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
   triangle_gradient.addColorStop(0, color1);
   triangle_gradient.addColorStop(1, color2);
