@@ -241,7 +241,7 @@ a:active {
 		grid-row-end: 4;
 		
 		margin-right: 10%;
-		margin-left: 15%;
+		margin-left: 10%;
 		margin-bottom: 15%;
 		
 		font-size: 2vh;
@@ -333,7 +333,101 @@ a:active {
 		grid-row-end: 4;
 		
 		margin-right: 10%;
-		margin-left: 15%;
+		margin-left: 10%;
+		
+		font-size: 2vh;
+
+	}
+	
+	.p1 {
+		display: none;
+	}
+
+	.p2 {
+		display: inline-block;
+	}
+	
+}
+
+@media screen and (max-width: 375px) {
+	
+	.blur {
+	
+		grid-template-columns: 100%;
+		grid-template-rows: 25% 12.5% 37.5% 25%;
+					  
+		width: 65%;
+		height: 85%;   
+	
+	}
+	
+	.profile {
+	
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+		
+		justify-self: center;
+		align-self: center;
+		
+		margin-right: 5%;
+		margin-top: 10%;
+		
+		width: 45%;
+		
+	}
+	
+	.profile:hover {
+		box-shadow: 0 0 0px black;
+	}
+	
+	.git {
+	
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 4;
+		grid-row-end: 5;
+		
+		justify-self: center;
+		align-self: center;
+			
+		margin-left: 5%;
+		width: 45%;
+		
+		margin-bottom: 5%;
+			
+	}
+	
+	.git:hover {		
+		box-shadow: 0 0 0px black;
+	}
+
+	
+	h1 {
+	
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		
+		font-size: 4vh;
+		align-self:start;
+		
+		position: relative;
+		bottom: 5%;
+				
+	}
+
+	p {
+		
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 3;
+		grid-row-end: 4;
+		
+		margin-right: 10%;
+		margin-left: 10%;
 		
 		font-size: 2vh;
 
