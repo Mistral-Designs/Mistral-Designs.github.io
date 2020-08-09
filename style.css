@@ -127,12 +127,17 @@ a:active {
 	display: inline-block;
 }
 
+.profile:hover, .git:hover {
+	box-shadow: 0 0 0 rgb(0, 0, 0);
+}
+	
+
 @media (orientation: landscape) {
 
 	.container {
 	  
 		flex-direction: row;
-		min-width: 58%;
+		min-width: 57%;
 		height: fit-content;
 	
 	}
@@ -144,7 +149,7 @@ a:active {
 	.profile {	  
 		border: 2px solid rgb(200, 200, 200);
 		border-radius: 120px;
-		width: 20%;
+		width: 23%;
 		margin-right: 5%;	
 		margin-top: 0;
 	}
@@ -152,7 +157,7 @@ a:active {
 	.git {	  
 		border: 2px solid rgb(200, 200, 200);
 		border-radius: 120px;
-		width: 20%;
+		width: 23%;
 		margin-left: 5%;
 		margin-bottom: 0;	
 	}
