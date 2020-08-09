@@ -137,7 +137,7 @@ a:active {
 	.container {
 	  
 		flex-direction: row;
-		min-width: 57%;
+		min-width: 64%;
 		height: fit-content;
 	
 	}
@@ -149,7 +149,7 @@ a:active {
 	.profile {	  
 		border: 2px solid rgb(200, 200, 200);
 		border-radius: 120px;
-		width: 23%;
+		width: 21%;
 		margin-right: 5%;	
 		margin-top: 0;
 	}
@@ -157,7 +157,7 @@ a:active {
 	.git {	  
 		border: 2px solid rgb(200, 200, 200);
 		border-radius: 120px;
-		width: 23%;
+		width: 21%;
 		margin-left: 5%;
 		margin-bottom: 0;	
 	}
