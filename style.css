@@ -137,7 +137,7 @@ a:active {
 	.container {
 	  
 		flex-direction: row;
-		min-width: 64%;
+		min-width: 66%;
 		height: fit-content;
 	
 	}
