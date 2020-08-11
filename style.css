@@ -34,7 +34,7 @@
 	border-radius: 200px;
 	border: 2px solid rgb(200, 200, 200);
 	height: fit-content;
-	min-width: 40%;
+	min-width: 70%;
 	backdrop-filter: blur(10px);
 	animation: fadein 3s;
 
@@ -68,7 +68,7 @@
 	
 	border: 2px solid rgb(200, 200, 200);
 	border-radius: 120px;
-	width: 50%;
+	width: 40%;
 	margin-top: 10%;
 	
 }
@@ -77,7 +77,7 @@
 	
 	border: 2px solid rgb(200, 200, 200);
 	border-radius: 120px;
-	width: 50%;
+	width: 40%;
 	margin-bottom: 10%;
   
 }
@@ -137,7 +137,7 @@ a:active {
 	.container {
 	  
 		flex-direction: row;
-		min-width: 66%;
+		min-width: 68%;
 		height: fit-content;
 	
 	}
