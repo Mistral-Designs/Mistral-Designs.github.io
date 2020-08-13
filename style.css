@@ -1,8 +1,22 @@
 @font-face {
-  font-family: "Adam";
+  font-family: "Ikaros-Light";
   font-style: normal;
   font-display: swap;
-  src: url("font/Adam-Medium.ttf") format("truetype");
+  src: url("font/Ikaros-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Code";
+  font-weight: normal;
+  font-display: swap;
+  src: url("font/codel.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Code";
+  font-weight: bold;
+  font-display: swap;
+  src: url("font/codeb.otf") format("opentype");
 }
 
 * {
@@ -34,7 +48,7 @@
 	border-radius: 200px;
 	border: 2px solid rgb(200, 200, 200);
 	height: 95%;
-	width: 50%;
+	width: 60%;
 	backdrop-filter: blur(10px);
 	animation: fadein 3s;
 
@@ -84,23 +98,21 @@
   box-shadow: 0 0 20px rgb(200, 200, 200);
 }
 
-h1 {
+.title {
 	
-  font-family: "Adam";
+  font-family: "Code";
   font-size: 4vh;
   color: rgb(200, 200, 200);
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 10%;
-  
+  margin-bottom: 10%;
+    
 }
 
-p {
+.p1, .p2 {
 	
-  font-family: "Adam";
+  font-family: "Code";
   font-size: 2.3vh;
   color: rgb(200, 200, 200);
-  padding-bottom: 10%;
   
 }
 
@@ -148,28 +160,31 @@ a:active {
 	.profile {	  
 		border: 2px solid rgb(200, 200, 200);
 		border-radius: 120px;
-		width: 21%;		
-		margin-right: 5%;	
+		width: 20%;		
+		height: auto;
+		margin-right: 4%;	
 	}
   
 	.git {	  
 		border: 2px solid rgb(200, 200, 200);
 		border-radius: 120px;
-		width: 21%;
-		margin-left: 5%;
+		width: 20%;
+		height: auto;
+		margin-left: 4%;
 	}
   
 	.profile:hover, .git:hover {
 		box-shadow: 0 0 20px rgb(200, 200, 200);
 	}
 	
-	h1 {
+	.title {
 		padding-top: 3%;
 		padding-bottom: 3%;
 		font-size: 2.5vw;
+		margin-bottom: 0%;
 	}
 
-	p{
+	.p1, .p2{
 		padding-bottom: 3%;
 		font-size: 1.2vw;
 	}
