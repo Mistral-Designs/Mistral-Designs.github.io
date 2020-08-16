@@ -147,7 +147,7 @@ a:active {
 	.container {
 	  
 		flex-direction: row;
-		width: 76%;
+		width: 69%;
 		height: fit-content;
 		height: -moz-max-content;
 		
@@ -162,7 +162,7 @@ a:active {
 		border-radius: 120px;
 		width: 20%;		
 		height: auto;
-		margin-right: 2%;	
+		margin-right: 4%;	
 	}
   
 	.git {	  
@@ -170,7 +170,7 @@ a:active {
 		border-radius: 120px;
 		width: 20%;
 		height: auto;
-		margin-left: 2%;
+		margin-left: 4%;
 	}
   
 	.profile:hover, .git:hover {
