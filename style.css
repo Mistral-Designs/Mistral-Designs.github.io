@@ -45,7 +45,7 @@
 .container {
 	
 	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 200px;
+	border-radius: 250px;
 	border: 2px solid rgb(200, 200, 200);
 	height: 95%;
 	width: 60%;
@@ -81,7 +81,7 @@
 .profile {
 	
 	border: 2px solid rgb(200, 200, 200);
-	border-radius: 120px;
+	border-radius: 180px;
 	height: 15vw;
 	
 }
@@ -89,7 +89,7 @@
 .git {
 	
 	border: 2px solid rgb(200, 200, 200);
-	border-radius: 120px;
+	border-radius: 180px;
 	height: 15vw;
   
 }
@@ -159,7 +159,7 @@ a:active {
 
 	.profile {	  
 		border: 2px solid rgb(200, 200, 200);
-		border-radius: 120px;
+		border-radius: 180px;
 		width: 20%;		
 		height: auto;
 		margin-right: 4%;	
@@ -167,7 +167,7 @@ a:active {
   
 	.git {	  
 		border: 2px solid rgb(200, 200, 200);
-		border-radius: 120px;
+		border-radius: 180px;
 		width: 20%;
 		height: auto;
 		margin-left: 4%;
