@@ -140,6 +140,17 @@ a:active {
 .profile:hover, .git:hover {
 	box-shadow: 0 0 0 rgb(0, 0, 0);
 }
+
+.forChrome {
+    position:   absolute;
+    top:        10px;
+    left:       10px;
+    text-align: left;
+	color: white;
+	font-family: "Code";
+	font-size: 1vh;
+	font-style: italic;
+}
 	
 
 @media (orientation: landscape) {
