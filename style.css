@@ -137,6 +137,10 @@ a:active {
 	display: inline-block;
 }
 
+.p2#lol {
+	text-align: center;
+}
+
 .profile:hover, .git:hover {
 	box-shadow: 0 0 0 rgb(0, 0, 0);
 }
@@ -191,7 +195,7 @@ a:active {
 	.title {
 		padding-top: 3%;
 		padding-bottom: 3%;
-		font-size: 2.5vw;
+		font-size: 2.3vw;
 		margin-bottom: 0%;
 	}
 
